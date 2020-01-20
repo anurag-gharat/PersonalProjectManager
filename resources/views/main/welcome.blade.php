@@ -13,6 +13,7 @@
 
     </head>
     <body>
+        
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -28,7 +29,7 @@
                 </div>
             @endif
 
-<button class="button" onclick="alert('hii')">click me</button>
+<button class="button btn btn-primary" onclick="alert('hii')">click me</button>
 
     </body>
     <script src="/js/app.js"></script>
