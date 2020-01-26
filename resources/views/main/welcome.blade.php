@@ -15,8 +15,18 @@
     </head>
     <body>
         <div class="landing-page">
-            
-            
+            <div class="row">
+                <div class="col-md-6 landing-content">
+                    <div class="promotional-lines">
+                        <h1 class="bold">GET PRODUCTIVE!!</h1>
+                        <h4>and make a todo for projects</h4>
+                        <p>Plan all your projects and enlist all your tasks related to those projects and start working!Make necessary notes and add TODO'S for the same.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 landing-picture">
+                    <img src="/img/landing2.png" alt="" srcset="">
+                </div>
+            </div>
 
         </div>
 {{--         
