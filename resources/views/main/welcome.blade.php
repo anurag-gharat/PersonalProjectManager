@@ -18,13 +18,15 @@
             <div class="row">
                 <div class="col-md-6 landing-content">
                     <div class="promotional-lines">
-                        <h1 class="bold">GET PRODUCTIVE!!</h1>
-                        <h4>and make a todo for projects</h4>
-                        <p>Plan all your projects and enlist all your tasks related to those projects and start working!Make necessary notes and add TODO'S for the same.</p>
+                        <h1 >GET PRODUCTIVE!!</h1>
+                        <h4>Have a Plan for all your projects.</h4>
+                        <center>
+                        <a href="#" class="button landing-button">Start working</a>
+                        </center>
                     </div>
                 </div>
                 <div class="col-md-6 landing-picture">
-                    <img src="/img/landing2.png" alt="" srcset="">
+                    <img src="/img/landing3.png" alt="" srcset="">
                 </div>
             </div>
 

@@ -15,8 +15,9 @@ body{
     padding: 0px;
 }
 .promotional-lines{
-    background-color:#ad1c1c;
-    margin-top: 25%;
+    height: 60%;
+    width:60%;
+    margin-top: 20%;
     margin-left: 10%;
     padding: 20px;
 }
@@ -24,6 +25,32 @@ body{
     font-family: Arial;
     font-weight: 800 !important;
     line-height: 4rem;
+    font-size: 4rem;
+    color:#6c5ce7;
+    letter-spacing: 5px;
+}
+.landing-button{
+    padding: 10px 20px;
+    /* background-color:#6c5ce7; */
+    background: linear-gradient(45deg,#6c5ce7,#74b9ff);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 22px;
+    color: #fff;
+}
+.landing-button:hover{
+    text-decoration: none;
+    opacity: .7;
+    color: white;
+    transition: .5s ease;
+}
+.promotional-lines>h4{
+    margin-top: 40px;
+    color: #636e72;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 40px;
 }
 .landing-picture,.landing-content{
     height: 100vh;
