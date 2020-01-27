@@ -16,3 +16,10 @@ body{
 .title{
     margin: 10px 0px;
 }
+.hidden{
+    visibility: hidden;
+    position: absolute;
+}
+.text-show{
+    color: black;
+}

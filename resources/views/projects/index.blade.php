@@ -11,14 +11,16 @@
             @foreach($projects as $project)
             <h3>
             <li class="projects-list-item">
-            <a href="/projects/{{$project->id}}" class="color">{{$project->name}}</a>
+            <a href="/projects/{{$project->id}}" class="color" onmouseover="reveal({{$project->id}})">{{$project->name}}</a>
+            <p class="hidden" id="{{$project->id}}">{{$project->description}}</p>
             </li>
             </h3>
             @endforeach
             </ol>
         </div>
         <div class="col-md-6">
-            <div class="display bg-dark w-100 h-100">
+            <div class="display border w-100 h-100">
+                <p id="show" class="text-show"></p>
 
             </div>
 
@@ -28,3 +30,10 @@
 
 </div>    
 @endsection
+<script>
+    function reveal(id){
+        var text=document.getElementById(id).innerHTML;
+        document.getElementById("show").innerHTML=text;
+        // alert("hii");
+    }
+</script>
