@@ -16,12 +16,22 @@
     <body>
         <div class="landing-page">
             <div class="row">
+               <div class="log-btns">
+                    @if (Route::has('login'))
+                            @auth
+                                <a href="{{ url('/home') }}" class="home-btn">Home</a>
+                            @endauth
+                        
+                    @endif
+                </div>
+
+        
                 <div class="col-md-6 landing-content">
                     <div class="promotional-lines">
                         <h1 >GET PRODUCTIVE!!</h1>
                         <h4>Have a Plan for all your projects.</h4>
                         <center>
-                        <a href="#" class="button landing-button">Start working</a>
+                        <a href="{{ route('register') }}" class="button landing-button">Start working</a>
                         </center>
                     </div>
                 </div>
@@ -32,21 +42,7 @@
 
         </div>
 {{--         
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
+        
 <button class="button btn btn-primary" onclick="alert('hii')">click me</button>
  --}}
 

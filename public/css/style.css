@@ -6,6 +6,27 @@ body{
     box-sizing: border-box;
     overflow-x: hidden;
 }
+.log-btns{
+    margin: 0px !important;
+    position: absolute;
+    display: flex;
+    width: 110vw;
+    height: 80px;
+    margin-right: -20px;
+    flex-direction: row;
+    border-bottom:1px solid #b2bec3;
+    justify-content: flex-end;
+}
+.home-btn{
+    margin-right: 150px;
+    margin-top: 10px;
+    padding: 14px 25px;
+    height: 60px;
+    font-size:18px;
+    font-weight: 400px;
+    color: #636e72;
+    cursor: default;
+}
 /* style for landing page  #8abaea  light #dfedfb*/
 .landing-page{
     /* background-color: #74b9ff; */
@@ -58,6 +79,6 @@ body{
 .landing-picture>img{
     float: right;
     width: 80%;
-    height: 80%;
-    margin: 10%;
+    height: 70%;
+    margin-top: 25%;
 }
