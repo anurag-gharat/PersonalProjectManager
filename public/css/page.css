@@ -20,6 +20,15 @@ body{
     visibility: hidden;
     position: absolute;
 }
+.display{
+    /* border: 1px solid #636e72; */
+    background-color: #ecf0f1;
+    padding: 20px;
+}
 .text-show{
     color: black;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #666666;
 }

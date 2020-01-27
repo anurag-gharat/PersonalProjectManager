@@ -19,7 +19,7 @@
             </ol>
         </div>
         <div class="col-md-6">
-            <div class="display border w-100 h-100">
+            <div class="display w-100 h-100">
                 <p id="show" class="text-show"></p>
 
             </div>
