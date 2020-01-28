@@ -16,14 +16,14 @@
     <body>
         <div class="landing-page">
             <div class="row">
-               <div class="log-btns">
+               {{-- <div class="log-btns">
                     @if (Route::has('login'))
                             @auth
                                 <a href="{{ url('/home') }}" class="home-btn">Home</a>
                             @endauth
                         
                     @endif
-                </div>
+                </div> --}}
 
         
                 <div class="col-md-6 landing-content">
