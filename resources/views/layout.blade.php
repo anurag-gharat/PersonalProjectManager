@@ -21,16 +21,13 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link color" href="/projects/">Projects</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link color" href="/home">Home</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                          </li>    
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link color" href='/settings/'>Settings</a>
                           </li>    
                     </ul>
 

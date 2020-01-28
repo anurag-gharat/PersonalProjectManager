@@ -1,7 +1,7 @@
 @extends('layout')
 @section('content')
 
-<div class="container shadow single-project h-75">
+<div class="container shadow single-project">
     <div class="row">
         <div class="col-md-6">
                 <h4 class="s-color">Title:</h4>
@@ -41,7 +41,7 @@
         <label for="description" class="label">Name of Task</label>
         <div class="control">
             <div class="field">
-            <input type="text" class="input" name="details" placeholder="Details of task"> 
+            <input type="text" class="input mt-2" name="details" placeholder="Details of task"> 
             </div>
         </div>
         <br>

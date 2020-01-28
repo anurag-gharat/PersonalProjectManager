@@ -6,7 +6,10 @@ body{
     box-sizing: border-box;
 }
 .color{
-    color: #6c5ce7;
+    color: #6c5ce7 !important;
+}
+.nav-link:hover{
+    color: #666666 !important;
 }
 /* Styling for index page */
 .title-display{
